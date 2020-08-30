@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&display=swap');
+
+:root {
+    --bg-color: linear-gradient( #10103a, #0b0933), #030314;
+    --txt-color-wht: white;
+}
+
+html {
+    background: #030314;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    outline: 1px solid white;
+}
+
+main {
+    padding: 24px;
+}
+
+section {
+    height: 100vh;
+}

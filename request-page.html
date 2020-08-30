@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chorer request page</title>
+    <link rel="stylesheet" href="./css/request-page.css" type="text/css" media="all" />
+</head>
+<body>
+    <main>
+        <form action="" method="post" accept-charset="utf-8">
+            <label for="full name">full name</label>
+            <input type="text" name="fullname" id="fullname" value="" />
+
+            <label for="phone">phone number</label>
+            <input type="tel" name="phone" id="phone" value="" />
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" value="" />
+
+            <label for="design-type">select design dimensions: </label>
+            <select name="design-type" id="design-type">
+                <option value="none">none</option>
+                <optgroup label="social media">
+                    <option value="facebook">facebook</option>
+                    <option value="twitter">twitter</option>
+                    <option value="instagram">instagram</option>
+                </optgroup>
+
+                <optgroup label="other">
+                    <option value="flyer">flyer</option>
+                    <option value="banner">banner</option>
+                    <option value="flex">flex</option>
+                    <option value="pdf">pdf</option>
+                    <option value="magazine">magazine</option>
+                </optgroup>
+            </select>
+
+            <label for="describe-design">tell us about your design</label>
+            <input type="text" name="describe-design" id="describe-design" value="" placeholder="e.g fear factor 2.0" />
+
+            <label for="colour-preference">colour preference</label>
+            <input type="color" name="colour-preference" id="colour-preference" value="" />
+
+            <label for="logo">upload logo</label>
+            <input type="file" name="logo" id="logo" value="" placeholder="upload your logo if necessary" />
+            <span>your logo image size should not be more than 1mb. use an image compressor if necessary before upload.</span>
+
+            <label for="images">upload images for your design</label>
+            <input type="file" id="images" value="" />
+            <span>your image size should not be more than 2mb per image. use an image compressor if necessary before upload.</span>
+
+            <label for="event-date">enter event date</label>
+            <input type="datetime-local" name="event-date" id="event-date" value="" />
+
+            <label for="venue">enter a venue</label>
+            <input type="text" name="venue" id="venue" value="" placeholder="e.g challenge event center, ibadan" />
+
+            <label for="other">other- necessary information</label>
+            <textarea name="other" id="other" rows="8" cols="40" placeholder="e.g. lorem ipsum and stuffs"></textarea>
+
+            <label for="copies">number of print copies</label>
+            <input type="number" name="copies" id="copies" value="" />
+
+            <label for="delivery-location">enter your preferred delivery location</label>
+            <input type="text" name="delivery-location" id="delivery-location" value="" />
+
+            <input type="button" name="order" id="order" value="make order" />
+            
+            <input type="reset" name="reset" id="reset-button" value="reset" />
+        </form>
+    </main>
+
+    <script src="./scripts/checkout.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
