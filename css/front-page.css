@@ -33,6 +33,7 @@
 #slogan {
     font-weight: 800;
     font-size: 1.5em;
+    color: white;
     color: rgba(255,255,255,0.2);
     -webkit-text-stroke: 0.5px rgba(255,255,255,0.6);
     text-transform: uppercase;
@@ -108,7 +109,7 @@
     border-bottom-color: green;
     -webkit-border-radius: 5px;*/
     border-radius: 5px;
-    box-shadow: 0px 9.7px 0px -2px green, 0px 10px 0px -1.9px red;
+    box-shadow: 0px 9.7px 0px 0.5px green, 0px 10px 0px 0.6px red;
     background: white;
     text-decoration: none;
     color: #030314;
